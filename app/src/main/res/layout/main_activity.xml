@@ -6,20 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text"
-        style="@style/TextAppearance.AppCompat.Title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="ssssssssss"
-        android:textColor="#000" />
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/feed_action_bar"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/text"
-        android:layout_margin="10dp"
-        android:text="change text" />
+
 </RelativeLayout>
