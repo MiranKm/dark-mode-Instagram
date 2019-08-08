@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/feedFragment"
+    android:id="@+id/main_navigation">
+
+    <activity
+        android:id="@+id/navigation_feed"
+        android:name="com.example.miranpc.instagramdarkmode.fragments.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" />
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.example.miranpc.instagramdarkmode.fragments.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.miranpc.instagramdarkmode.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.miranpc.instagramdarkmode.fragments.SearchFragment"
+        android:label="navigation_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>
