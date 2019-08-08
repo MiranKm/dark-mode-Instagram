@@ -1,4 +1,4 @@
-package com.example.miranpc.instagramdarkmode
+package com.example.miranpc.instagramdarkmode.fragments
 
 
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.miranpc.instagramdarkmode.R
 
 
 // TODO: Rename parameter arguments, choose names that match

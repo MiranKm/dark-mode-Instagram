@@ -1,8 +1,8 @@
-package com.example.miranpc.instagramdarkmode
+package com.example.miranpc.instagramdarkmode.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.main_activity.*
+import com.example.miranpc.instagramdarkmode.R
 
 class MainActivity : AppCompatActivity() {
 
