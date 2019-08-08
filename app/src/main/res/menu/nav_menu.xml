@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:checkable="true"
+        android:icon="@drawable/feed_camera"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/navigation_feed"
+        android:checkable="true"
+        android:icon="@drawable/feed_camera"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/camera"
+        android:checkable="true"
+        android:icon="@drawable/feed_camera"
+        android:title="@string/title_feed" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:checkable="true"
+        android:icon="@drawable/feed_camera"
+        android:title="@string/title_profile" />
+    <item
+        android:id="@+id/navigation_notification"
+        android:checkable="true"
+        android:icon="@drawable/feed_camera"
+        android:title="@string/search" />
+
+</menu>

@@ -29,7 +29,7 @@
             android:scaleY="@dimen/feed_icon_scale_y"
             android:src="@drawable/feed_camera"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/dm"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,13 +42,13 @@
             android:gravity="center"
             android:src="@drawable/ic_ig_icon"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/dm"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageButton"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/dm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="@dimen/feed_icon_scale_x"

@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/feedFragment">
+    app:startDestination="@+id/navigation_feed">
+
     <fragment
-        android:id="@+id/feedFragment"
+        android:id="@+id/navigation_feed"
         android:name="com.example.miranpc.instagramdarkmode.fragments.FeedFragment"
         android:label="fragment_feed"
         tools:layout="@layout/fragment_feed" />
@@ -15,10 +16,16 @@
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" />
     <fragment
+        android:id="@+id/camera"
+        android:name="com.example.miranpc.instagramdarkmode.fragments.NotificationFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.miranpc.instagramdarkmode.fragments.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+
     <fragment
         android:id="@+id/navigation_search"
         android:name="com.example.miranpc.instagramdarkmode.fragments.SearchFragment"
