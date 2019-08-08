@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/navigation_search"
-        android:checkable="true"
-        android:icon="@drawable/feed_camera"
-        android:title="@string/search" />
+
     <item
         android:id="@+id/navigation_feed"
         android:checkable="true"
-        android:icon="@drawable/feed_camera"
+        android:icon="@drawable/ic_home_icon"
         android:title="@string/title_feed" />
-
+    <item
+        android:id="@+id/navigation_search"
+        android:checkable="true"
+        android:icon="@drawable/ic_search_icon"
+        android:title="@string/search" />
     <item
         android:id="@+id/camera"
         android:checkable="true"
-        android:icon="@drawable/feed_camera"
+        android:icon="@drawable/ic_camera_upload"
         android:title="@string/title_feed" />
-    <item
-        android:id="@+id/navigation_profile"
-        android:checkable="true"
-        android:icon="@drawable/feed_camera"
-        android:title="@string/title_profile" />
     <item
         android:id="@+id/navigation_notification"
         android:checkable="true"
-        android:icon="@drawable/feed_camera"
+        android:icon="@drawable/ic_notification_icon"
         android:title="@string/search" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:checkable="true"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="@string/title_profile" />
+
 
 </menu>
