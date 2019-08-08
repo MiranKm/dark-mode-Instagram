@@ -8,14 +8,33 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="navigation_feed">
+                  <entry key="feedFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-237" />
-                            <option name="y" value="-261" />
+                            <option name="x" value="-460" />
+                            <option name="y" value="-285" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_feedFragment_to_navigation_notification">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_feedFragment_to_navigation_profile">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_feedFragment_to_navigation_search">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -25,9 +44,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="224" />
-                            <option name="y" value="-237" />
+                            <option name="x" value="118" />
+                            <option name="y" value="-216" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_navigation_notification_to_navigation_profile">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -37,8 +65,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="237" />
-                            <option name="y" value="160" />
+                            <option name="x" value="-89" />
+                            <option name="y" value="116" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -49,9 +77,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="14" />
-                            <option name="y" value="-210" />
+                            <option name="x" value="-182" />
+                            <option name="y" value="-334" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_navigation_search_to_navigation_notification">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
