@@ -5,27 +5,27 @@
     <item
         android:id="@+id/navigation_feed"
         android:checkable="true"
-        android:icon="@drawable/ic_home_icon"
+        android:icon="@drawable/home_icon_state"
         android:title="@string/title_feed" />
     <item
         android:id="@+id/navigation_search"
         android:checkable="true"
-        android:icon="@drawable/ic_search_icon"
+        android:icon="@drawable/search_icon_state"
         android:title="@string/search" />
     <item
         android:id="@+id/camera"
         android:checkable="true"
-        android:icon="@drawable/ic_camera_upload"
-        android:title="@string/title_feed" />
+        android:icon="@drawable/camera_icon_state"
+        android:title="Camera" />
     <item
         android:id="@+id/navigation_notification"
         android:checkable="true"
-        android:icon="@drawable/ic_notification_icon"
+        android:icon="@drawable/notification_icon_state"
         android:title="@string/search" />
     <item
         android:id="@+id/navigation_profile"
         android:checkable="true"
-        android:icon="@drawable/ic_profile_icon"
+        android:icon="@drawable/profile_icon_state"
         android:title="@string/title_profile" />
 
 

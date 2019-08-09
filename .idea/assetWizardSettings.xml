@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -14,11 +19,11 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="40" />
-                            <entry key="outputName" value="ic_search_icon" />
+                            <entry key="height" value="35" />
+                            <entry key="outputName" value="ic_camera_upload_outline" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\HP omen\Desktop\logo\search_icon.svg" />
-                            <entry key="width" value="40" />
+                            <entry key="sourceFile" value="C:\Users\HP omen\Desktop\logo\camera_upload_outline.svg" />
+                            <entry key="width" value="35" />
                           </map>
                         </option>
                       </PersistentState>

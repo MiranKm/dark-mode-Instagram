@@ -22,6 +22,7 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
+        app:labelVisibilityMode="unlabeled"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:itemTextColor="@color/colorWhite"

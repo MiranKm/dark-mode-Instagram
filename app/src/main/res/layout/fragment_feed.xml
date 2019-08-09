@@ -7,10 +7,10 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-
-        android:text="@string/title_feed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fontFamily="@font/roboto"
+        android:text="@string/title_feed"
         android:textColor="@color/colorWhite" />
 
 </FrameLayout>
