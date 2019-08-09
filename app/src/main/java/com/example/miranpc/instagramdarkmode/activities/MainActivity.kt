@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         navController = Navigation.findNavController(this, R.id.container)
         bottom_nav.setupWithNavController(navController)
 
+//        bottom_nav.itemIconTintList = null;
+
     }
 
     override fun onNavigateUp(): Boolean {
