@@ -33,10 +33,13 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_more_vert_black_24dp" />
+                            <entry key="height" value="52" />
+                            <entry key="outputName" value="ic_test_self_story" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\HP omen\Desktop\logo\bookmark_icon_outline.svg" />
+                            <entry key="sourceFile" value="C:\Users\HP omen\Desktop\logo\test_self_story.svg" />
+                            <entry key="width" value="51" />
                           </map>
                         </option>
                       </PersistentState>
