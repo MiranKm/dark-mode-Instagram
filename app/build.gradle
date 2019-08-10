@@ -14,6 +14,9 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        this line will help you use vector drawables to the apis < 18 and
+//        vectorDrawables.useSupportLibrary = true
+//        app:srcCompat="@drawable/empty_dice"
     }
     buildTypes {
         release {

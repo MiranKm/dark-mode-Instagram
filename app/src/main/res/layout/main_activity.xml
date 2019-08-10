@@ -7,10 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/feed_action_bar" />
-
     <fragment
         android:id="@+id/container"
         android:layout_width="match_parent"
