@@ -1,14 +1,14 @@
 package com.example.miranpc.instagramdarkmode.fragments
 
 
-import android.R.attr.data
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.example.miranpc.instagramdarkmode.R
 import com.example.miranpc.instagramdarkmode.databinding.FragmentFeedBinding
 
 
@@ -42,9 +42,20 @@ class FeedFragment : Fragment() {
 
 
         val binding:FragmentFeedBinding = DataBindingUtil.inflate(
-                inflater, R.layout.fragment_feed, container, false)
+                inflater, com.example.miranpc.instagramdarkmode.R.layout.fragment_feed, container, false)
         val view = binding.root
-        //here data must be an instance of the class MarsDataProvider
+        val toolbar = view.findViewById<androidx.appcompat.widget.Toolbar>(com.example.miranpc.instagramdarkmode.R.id.toolbar)
+        (activity as AppCompatActivity).setSupportActionBar(toolbar)
+
+        val igHome = toolbar.findViewById<View>(com.example.miranpc.instagramdarkmode.R.id.ig_icon)
+        val dmHome = toolbar.findViewById<View>(com.example.miranpc.instagramdarkmode.R.id.dm_icon)
+
+        igHome.setOnClickListener {
+            Toast.makeText(context, "IG", Toast.LENGTH_SHORT).show()
+        }
+        dmHome.setOnClickListener {
+            Toast.makeText(context, "Direct Message", Toast.LENGTH_SHORT).show()
+        }
 
         return view
     }
