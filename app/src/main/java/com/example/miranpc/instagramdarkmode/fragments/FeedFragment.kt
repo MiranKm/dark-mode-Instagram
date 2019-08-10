@@ -1,12 +1,15 @@
 package com.example.miranpc.instagramdarkmode.fragments
 
 
+import android.R.attr.data
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import com.example.miranpc.instagramdarkmode.R
+import com.example.miranpc.instagramdarkmode.databinding.FragmentFeedBinding
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -36,7 +39,14 @@ class FeedFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_feed, container, false)
+
+
+        val binding:FragmentFeedBinding = DataBindingUtil.inflate(
+                inflater, R.layout.fragment_feed, container, false)
+        val view = binding.root
+        //here data must be an instance of the class MarsDataProvider
+
+        return view
     }
 
 
