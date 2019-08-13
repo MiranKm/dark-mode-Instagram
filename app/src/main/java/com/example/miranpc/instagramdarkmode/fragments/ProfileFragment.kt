@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatSpinner
 import androidx.fragment.app.Fragment
+import com.example.miranpc.instagramdarkmode.ProfileBottomSheetDialog
 import com.example.miranpc.instagramdarkmode.R
 
 
@@ -40,12 +40,16 @@ class ProfileFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
-        val stringArray = arrayOf("User", "User2")
-        val spinnerAdapter = ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, stringArray)
+
         val toolbar = view.findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
-        val spinner = toolbar.findViewById<AppCompatSpinner>(R.id.user_name)
+        val switchUser = toolbar.findViewById<TextView>(R.id.user_name)
+
+        switchUser.setOnClickListener {
+            val profileBottomSheetDialog = ProfileBottomSheetDialog()
+            profileBottomSheetDialog.show(activity!!.supportFragmentManager, "Profile")
+        }
         (activity as AppCompatActivity).setSupportActionBar(toolbar)
-        spinner.adapter = spinnerAdapter
+
         return view
     }
 
