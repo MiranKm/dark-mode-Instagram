@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         navController = Navigation.findNavController(this, R.id.container)
         bottom_nav.setupWithNavController(navController)
+
         /* val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
          setSupportActionBar(toolbar)
          val igHome= toolbar.findViewById<View>(R.id.ig_icon)
